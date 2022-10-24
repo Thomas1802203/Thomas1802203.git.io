@@ -1,6 +1,6 @@
 .logo-contacto{
-    display: flex;
-    justify-content: center;
+    @extend .cv;
     height: 100px;
-    margin-right: 80px;
+    margin-right: 50px;
+    padding: $padding*2;
 }

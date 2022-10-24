@@ -5,8 +5,7 @@ h2{
     display: flex;
     .imagenes-proyectos{
         width: 450px;
-        display: flex;
-        justify-content: center;
+        @extend .cv;
         height: 450px;
         padding: 50px;
         transition-duration: 2s;

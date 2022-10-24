@@ -7269,9 +7269,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+/* mis estilos */
+
 body {
   background-color: #ffe4c4; }
-    
+
 .logo {
   display: flex;
   height: 75px;
@@ -7306,13 +7308,11 @@ h2, .h2 {
   display: flex; }
   .imagenes .imagenes-proyectos {
     width: 450px;
-    display: flex;
-    justify-content: center;
     height: 450px;
     padding: 50px;
     transition-duration: 2s;
     transition-timing-function: ease-in-out; }
-     .imagenes-proyectos:hover {
+    .imagenes-proyectos:hover {
       transform: scale(2); }
 
 .experiencia-laboral {
@@ -7337,61 +7337,47 @@ h2, .h2 {
     padding: 45px 20px; }
 
 .logo-contacto {
-  display: flex;
-  justify-content: center;
   height: 100px;
-  margin-right: 80px; }
+  margin-right: 50px;
+  padding: 16px; }
 
 .titulo-cv {
   font-family: 'Montserrat', sans-serif;
-  text-align: center; }
+  text-align: center;
+  padding: 16px; }
 
-.cv {
+.cv, .imagenes .imagenes-proyectos, .logo-contacto, .titulo-proyectos, .otros-proyectos, .otros-proyectos-2, .titulo-sobremi, .p-sobremi, .foto-sobremi, .ig-sobremi {
   display: flex;
   justify-content: center; }
 
 .titulo-proyectos {
-  display: flex;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  padding: 16px; }
 
 .otros-proyectos {
   width: 100%;
-  display: flex;
   height: 600px;
-  justify-content: center;
   margin: auto; }
 
 .otros-proyectos-2 {
-  display: flex;
-  justify-content: center;
   height: 1500px;
   margin-bottom: 100px;
   margin-top: 100px; }
 
 .titulo-sobremi {
-  display: flex;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  padding: 16px; }
 
 .p-sobremi {
-  display: flex;
-  justify-content: center;
   font-family: 'Montserrat', sans-serif;
   margin-left: 100px;
   margin-right: 100px; }
 
 .foto-sobremi {
-  display: flex;
-  justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
   height: 300px; }
 
-.ig-sobremi {
-  display: flex;
-  justify-content: center; }
-  .ig-sobremi ul li a {
-    text-decoration: none;
-    color: #000000; }
-
+.ig-sobremi ul li a {
+  text-decoration: none;
+  color: #000000; }

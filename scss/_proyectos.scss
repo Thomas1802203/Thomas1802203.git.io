@@ -1,19 +1,16 @@
 .titulo-proyectos{
-    display: flex;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    @extend .cv;
+    padding: $padding*2;
 }
 .otros-proyectos{
     width: 100%;
-    display: flex;
+    @extend .cv;
     height: 600px;
-    justify-content: center;
     margin: auto;
     
 }
 .otros-proyectos-2{
-    display: flex;
-    justify-content:center;
+    @extend .cv;
     height: 1500px;
     margin-bottom: 100px;
     margin-top: 100px;

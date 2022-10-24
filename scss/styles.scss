@@ -1,2 +1,14 @@
 //bootstrap
 @import "bootstrap/bootstrap.scss";
+@import "variables";
+@import "nav";
+@import "main";
+@import "footer";
+@import "contacto";
+@import "cv";
+@import "proyectos";
+@import "sobremi";
+
+body{
+    background-color: #ffe4c4;
+}

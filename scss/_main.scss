@@ -1,0 +1,21 @@
+main{
+    padding: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.foto-thomas{
+    display: flex;
+    height: 300px;
+    animation-name: entrada-superior;
+    animation-duration: 2s;
+    @keyframes entrada-superior{
+        0%{
+            transform: translateY(-400px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.titulo-sobremi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.p-sobremi{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.foto-sobremi{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+.ig-sobremi {
+    display: flex;
+    justify-content: center;
+    ul li a{
+        text-decoration: none;
+        color: #000000;
+    }
+  }

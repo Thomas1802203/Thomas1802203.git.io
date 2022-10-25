@@ -7273,7 +7273,7 @@ textarea.form-control-lg {
 
 body {
   background-color: #ffe4c4; }
-
+    
 .logo {
   display: flex;
   height: 75px;
@@ -7312,7 +7312,7 @@ h2, .h2 {
     padding: 50px;
     transition-duration: 2s;
     transition-timing-function: ease-in-out; }
-    .imagenes-proyectos:hover {
+    .imagenes-proyectos:hover{
       transform: scale(2); }
 
 .experiencia-laboral {
@@ -7332,7 +7332,7 @@ h2, .h2 {
   grid-template-rows: 100px 50px;
   grid-column-gap: 50px;
   grid-row-gap: 65px; }
-  .marcas-grid .marcas-media {
+  .marcas-media {
     width: 100%;
     padding: 45px 20px; }
 
@@ -7342,7 +7342,6 @@ h2, .h2 {
   padding: 16px; }
 
 .titulo-cv {
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 16px; }
 
@@ -7351,7 +7350,6 @@ h2, .h2 {
   justify-content: center; }
 
 .titulo-proyectos {
-  font-family: 'Montserrat', sans-serif;
   padding: 16px; }
 
 .otros-proyectos {
@@ -7365,11 +7363,9 @@ h2, .h2 {
   margin-top: 100px; }
 
 .titulo-sobremi {
-  font-family: 'Montserrat', sans-serif;
   padding: 16px; }
 
 .p-sobremi {
-  font-family: 'Montserrat', sans-serif;
   margin-left: 100px;
   margin-right: 100px; }
 
@@ -7381,3 +7377,55 @@ h2, .h2 {
 .ig-sobremi ul li a {
   text-decoration: none;
   color: #000000; }
+
+@media screen and (max-width: 768px) {
+  .imagenes .imagenes-proyectos {
+    width: 250px; }
+  .titulo-proyectos {
+    padding-top: 32px; }
+  .otros-proyectos {
+    width: 250px;
+    height: 350px; }
+  .otros-proyectos-2 {
+    padding-left: 410px;
+    width: 50%;
+    height: 500px; } }
+
+@media screen and (max-width: 600px) {
+  .foto-thomas {
+    padding-left: 50px; }
+  .imagenes .imagenes-proyectos {
+    height: 200px;
+    padding: 0%; }
+  .marcas-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; }
+  .otros-proyectos-2 {
+    padding-left: 300px; } }
+
+@media screen and (max-width: 480px) {
+  .foto-thomas {
+    padding-left: 0%; }
+  .cv{
+    height: 400px; }
+  .otros-proyectos-2 {
+    padding-left: 250px; } }
+
+@media screen and (max-width: 320px) {
+  .foto-thomas {
+    height: 200px;
+    padding-right: 16px; }
+  main {
+    padding: 0%; }
+  .imagenes .imagenes-proyectos {
+    height: 150px; }
+  .cv{
+    height: 300px; }
+  .titulo-proyectos {
+    padding-left: 48px; }
+  .otros-proyectos {
+    height: 200px; }
+  .otros-proyectos-2 {
+    height: 300px;
+    padding-left: 170px; } }

@@ -34,40 +34,28 @@
       
     }
   }
-  @media screen and (max-width:480px) {
-    .foto-thomas{
-      padding-left: 0%;
+@media screen and (max-width: 480px) {
+  .foto-thomas {
+    height: 150px;
+    padding: 16px; }
+  main {
+    padding: 0%; }
+  .imagenes .imagenes-proyectos {
+    height: 150px; }
+  .cv{
+     height: 250px; }
+  .otros-proyectos{
+     height: 200px;
     }
-    .cv{
-      height: 400px;
+  .otros-proyectos-2 {
+     padding-left: 250px; } }
+  
+@media screen and (max-width: 320px) {
+  .titulo-proyectos {
+    padding-left: 48px; }
+  .otros-proyectos{
+    height: 150px;
     }
-    .otros-proyectos-2{
-      padding-left: 250px;
-      
-    }
-  }
-  @media screen and (max-width:320px) {
-    .foto-thomas{
-      height: 130px;
-      padding-right: 16px;
-    }
-    main{
-      padding: 0%;
-    }
-    .imagenes .imagenes-proyectos{
-      height: 150px;
-    }
-    .cv{
-      height: 240px;
-    }
-    .titulo-proyectos{
-      padding-left: 48px;
-    }
-    .otros-proyectos{
-      height:150px;
-    }
-    .otros-proyectos-2{
-      height: 300px;
-      padding-left: 140px;
-    }
-  }
+  .otros-proyectos-2 {
+     height: 300px;
+    padding-left: 170px; } }

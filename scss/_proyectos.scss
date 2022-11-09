@@ -5,9 +5,7 @@
 .otros-proyectos{
     width: 100%;
     @extend .cv;
-    height: 600px;
-    margin: 0%;
-    
+    @include size(600px, 0%)
 }
 .otros-proyectos-2{
     @extend .cv;

@@ -1,7 +1,6 @@
 .logo{
     display: flex;
-    height: 75px;
-    margin: 10px;
+    @include size(75px, 10px)
 }
 .navbar{
     background-color: #876f52 !important;

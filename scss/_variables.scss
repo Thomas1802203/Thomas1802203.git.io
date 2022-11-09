@@ -1,2 +1,5 @@
 $padding: 8px;
-
+@mixin size ($alto, $espaciado) {
+   height: $alto;
+   margin: $espaciado;
+}
